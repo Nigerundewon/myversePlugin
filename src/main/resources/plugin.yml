@@ -1,0 +1,27 @@
+name: myverse
+version: '${project.version}'
+main: fr.radewon.MyversePlugin
+api-version: 1.19.4
+commands:
+  nlnzone:
+    description: Enter NLNZone.
+    usage: /nlnzone
+    aliases: [nln nz]
+  pocket:
+    description: Store and Deploy a pocket structure.
+    usage: /pocket
+  throw:
+    description: Throws the item in your hand
+    usage: /throw
+  visuals:
+    description: Use custom visuals command
+    usage: /visuals
+  myentity:
+    description: Summons custom MyVerse Entities
+    usage: /myentity
+  link:
+    description: Links audio to minecraft
+    usage: /link
+  speed:
+    description: Changes your speed
+    usage: /speed
